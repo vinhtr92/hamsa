@@ -20,9 +20,9 @@
     <meta name="theme-color" content="#fafafa" />
   </head>
 
-  <body>
+  <body class="perfect-px">
     <!-- Add your site or application content here -->
-    <header class="page-header clearfix">
+    <header class="page-header clearfix pos-a z-30">
       <a href="#" class="page-logo">
         <img class="page-logo__img" src="./img/logo.png" alt="site logo" />
       </a>
@@ -63,36 +63,63 @@
         <ul class="page-utility__ul clearfix">
           <li class="page-utility__li">
             <a href="#" class="page-utility__link">
-              <img class="page-utility__image" src="./img/header-icon/search.png" alt="search">
+              <img
+                class="page-utility__image"
+                src="./img/header-icon/search.png"
+                alt="search"
+              />
             </a>
           </li>
           <li class="page-utility__li">
             <a href="#" class="page-utility__link hidden-mobile">
-              <img class="page-utility__image" src="./img/header-icon/heart.png" alt="favourite">
+              <img
+                class="page-utility__image"
+                src="./img/header-icon/heart.png"
+                alt="favourite"
+              />
             </a>
           </li>
           <li class="page-utility__li">
             <a href="#" class="page-utility__link">
-              <img class="page-utility__image" src="./img/header-icon/cart.png" alt="cart">
+              <img
+                class="page-utility__image"
+                src="./img/header-icon/cart.png"
+                alt="cart"
+              />
             </a>
           </li>
           <li class="page-utility__li">
             <a href="#" class="page-utility__link hidden-mobile">
-              <img class="page-utility__image" src="./img/header-icon/profile.png" alt="profile">
+              <img
+                class="page-utility__image"
+                src="./img/header-icon/profile.png"
+                alt="profile"
+              />
+            </a>
+          </li>
+          <li class="page-utility__li mobile-toggle">
+            <a href="#" class="page-utility__link mobile-toggle__link">
+              <img
+                class="mobile-toggle__image"
+                src="./img/header-icon/mobile-menu.png"
+                alt="toggle"
+              />
             </a>
           </li>
         </ul>
       </nav>
-      <div class="mobile-toggle">
-        <a href="#" class="mobile-toggle__link">
-          <img class="mobile-toggle__image" src="./img/header-icon/mobile-menu.png" alt="toggle mobile">
-        </a>
-      </div>
     </header>
     <section class="page-hero">
-      <h2 class="section-title">new summer arrivals sale now</h2>
-      <a href="#" class="button-item button-item--cta">shop now</a>
-      <img src="./img/hero-img.png" class="page-hero__image" alt="hero image" />
+      <h2 class="section-title hidden-all">page hero</h2>
+      <div class="hero-item dark-bg" style="background-image:url(./img/hero-img.png)">
+        <h3 class="hero-item__title pos-a h-center z-20">new summer arrivals sale now</h2>
+        <a href="#" class="button-item button-item--cta pos-a h-center z-20">shop now</a>
+        <img
+          src="./img/hero-img.png"
+          alt="hero image"
+          class="hero-item__img"
+        />
+      </div>
     </section>
     <section class="page-discover">
       <h2 class="section-title">discover more</h2>
