@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "HelveticaNowMed";
+  src: url("../fonts/HelveticaNowText-Medium.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNowBold";
+  src: url("../fonts/HelveticaNowText-Bold.ttf");
+}
+.d-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+  &__cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "HelveticaNowMed", sans-serif;
+}
+.hidden {
+  &-mobile {
+    @media (max-width:767px){
+      display: none;
+    }
+  }
+
+  &-all {
+    display: none;
+  }
+}
+
+.page-header {
+  padding: 20px 23px;
+
+  .page-logo {
+    float: left;
+  }
+
+  .mobile-toggle {
+    text-align: right;
+  }
+
+  .mobile-toggle,
+  .page-utility {
+    // float: right;
+  }
+}
+
+
+.page-utility {
+  &__link {
+    text-decoration: none;
+  }
+
+  &__li {
+    list-style: none;
+    padding-left: 15px;
+    float: left;
+    max-height: 21px;
+  }
+
+  &__image {
+    height: 21px;
+  }
+
+  &__ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.page-logo {
+  max-width: 110px;
+  &__img {
+    max-width: inherit;
+  }
+}
+
+
+.mobile-toggle {
+  &__image {
+    height: 12px;
+  }
+}
