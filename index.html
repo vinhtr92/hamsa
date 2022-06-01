@@ -22,11 +22,11 @@
 
   <body class="perfect-px">
     <!-- Add your site or application content here -->
-    <header class="page-header clearfix pos-a z-30">
+    <header class="page-header clearfix pos-a z-30" title="main navigation">
       <a href="#" class="page-logo">
         <img class="page-logo__img" src="./img/logo.png" alt="site logo" />
       </a>
-      <nav class="page-header-navigation hidden-mobile">
+      <nav class="page-header-navigation hidden-mobile hidden-tabl">
         <ul class="page-header-navigation__ul">
           <li class="page-header-navigation__li">
             <a href="#" class="page-header-navigation__link"> new arrivals </a>
@@ -71,7 +71,7 @@
             </a>
           </li>
           <li class="page-utility__li">
-            <a href="#" class="page-utility__link hidden-mobile">
+            <a href="#" class="page-utility__link hidden-mobile hidden-tabl">
               <img
                 class="page-utility__image"
                 src="./img/header-icon/heart.png"
@@ -89,7 +89,7 @@
             </a>
           </li>
           <li class="page-utility__li">
-            <a href="#" class="page-utility__link hidden-mobile">
+            <a href="#" class="page-utility__link hidden-mobile hidden-tabl">
               <img
                 class="page-utility__image"
                 src="./img/header-icon/profile.png"
@@ -109,57 +109,69 @@
         </ul>
       </nav>
     </header>
-    <section class="page-hero">
+    <section class="page-hero" title="page hero">
       <h2 class="section-title hidden-all">page hero</h2>
-      <div class="hero-item dark-bg" style="background-image:url(./img/hero-img.png)">
-        <h3 class="hero-item__title pos-a h-center z-20">new summer arrivals sale now</h2>
-        <a href="#" class="button-item button-item--cta pos-a h-center z-20">shop now</a>
-        <img
-          src="./img/hero-img.png"
-          alt="hero image"
-          class="hero-item__img"
-        />
+      <div
+        class="hero-item dark-bg"
+        style="background-image: url(./img/hero-img.png)"
+      >
+        <h3 class="hero-item__title pos-a h-center z-20">
+          new summer arrivals sale now
+        </h3>
+        <a href="#" class="button-item button-item--cta pos-a h-center z-20"
+          >shop now</a
+        >
+        <img src="./img/hero-img.png" alt="hero image" class="hero-item__img" />
       </div>
     </section>
-    <section class="page-discover">
+    <section class="page-discover" title="discover more products">
       <h2 class="section-title">discover more</h2>
       <div class="row">
         <div class="col">
           <div class="card">
-            <div class="card__hero">
-              <img src="./img/img-02.png" alt="card hero" />
+            <div
+              class="card__hero"
+              style="background-image: url(./img/img-02.png)"
+            >
+              <img src="./img/img-02.png" alt="card hero" class="card__image" />
             </div>
             <div class="card__title">
-              <h3 class="div card__headding">shop kids</h3>
+              <h3 class="card__heading">shop kids</h3>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <div class="card__hero">
-              <img src="./img/img-01.png" alt="card hero" />
+            <div
+              class="card__hero"
+              style="background-image: url(./img/img-01.png)"
+            >
+              <img src="./img/img-01.png" alt="card hero" class="card__image" />
             </div>
             <div class="card__title">
-              <h3 class="div card__headding">shop baby</h3>
+              <h3 class="card__heading">shop baby</h3>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <div class="card__hero">
-              <img src="./img/img-03.png" alt="card hero" />
+            <div
+              class="card__hero"
+              style="background-image: url(./img/img-03.png)"
+            >
+              <img src="./img/img-03.png" alt="card hero" class="card__image" />
             </div>
             <div class="card__title">
-              <h3 class="div card__headding">shop limited edition</h3>
+              <h3 class="card__heading">shop limited edition</h3>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="page-tags">
+    <section class="page-tags" title="tags of the product">
       <h2 class="section-title">explore</h2>
-      <nav class="tag-items">
-        <ul class="tag-items__ul">
+      <nav class="tag-items clearfix">
+        <ul class="tag-items__ul clearfix">
           <li class="tag-items__li">
             <a href="#" class="tag-items__link">new arrivals</a>
           </li>
@@ -170,10 +182,10 @@
             <a href="#" class="tag-items__link">kids</a>
           </li>
           <li class="tag-items__li">
-            <a href="#" class="tag-items__link">shop the look</a>
+            <a href="#" class="tag-items__link">women</a>
           </li>
           <li class="tag-items__li">
-            <a href="#" class="tag-items__link">women</a>
+            <a href="#" class="tag-items__link">shop the look</a>
           </li>
           <li class="tag-items__li">
             <a href="#" class="tag-items__link">sale</a>
@@ -184,37 +196,38 @@
         </ul>
       </nav>
     </section>
-    <footer class="page-footer">
+    <section class="page-footer" title="footer links">
+      <h2 class="section-title hidden-all">footer links</h2>
       <nav class="footer-links">
         <ul class="footer-links__ul">
           <li class="footer-links__li">
             <a href="#" class="footer-links__link">about</a>
           </li>
           <li class="footer-links__li">
-            <a href="#" class="footer-links__link">customers care</a>
+            <a href="#" class="footer-links__link">customer care</a>
+          </li>
+          <li class="footer-links__li">
+            <a href="#" class="footer-links__link">stockists</a>
           </li>
           <li class="footer-links__li">
             <a href="#" class="footer-links__link">returns</a>
           </li>
           <li class="footer-links__li">
-            <a href="#" class="footer-links__link">stoclists</a>
-          </li>
-          <li class="footer-links__li">
             <a href="#" class="footer-links__link">instagram</a>
           </li>
           <li class="footer-links__li">
-            <a href="#" class="footer-links__link">newletter</a>
+            <a href="#" class="footer-links__link">newsletter</a>
           </li>
         </ul>
       </nav>
-      <section class="footer-copyright">
-        <h2 class="section-title hidden-all">copyright</h2>
-        <img
-          src="./img/footer-logo.png"
-          alt="footer copyright"
-          class="footer-logo"
-        />
-      </section>
+    </section>
+    <footer class="footer-copyright">
+      <h2 class="section-title hidden-all">copyright</h2>
+      <img
+        src="./img/footer-logo.png"
+        alt="footer copyright"
+        class="footer-logo"
+      />
     </footer>
 
     <!-- <script src="js/vendor/modernizr-3.11.2.min.js"></script> -->
