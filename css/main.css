@@ -54,6 +54,10 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.pos-a.v-center {
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .clearfix::after, .row::after, .page-header-navigation__ul::after {
   content: "";
